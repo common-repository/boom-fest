@@ -1,0 +1,13 @@
+.new-addon {
+    position: relative;
+    display: inline-block;
+}
+img.boom-fest-images {
+    position: absolute;
+    right: -45px;
+    top: -87px;
+    z-index: 200;
+    width: 100% !important;
+    max-width: 130px !important;
+    transform: rotate(14deg);
+}

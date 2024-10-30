@@ -1,0 +1,9 @@
+@font-face {
+  font-family: new-year-2;
+  src: url(../../fonts/Christmas-New-Year.otf);
+}
+
+#boom-fest-font{
+    font-family: new-year-2;
+    font-size:100px;
+}

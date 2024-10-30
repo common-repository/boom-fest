@@ -1,0 +1,11 @@
+.new-addon {
+    position: relative;
+    display: inline-block;
+}
+img.boom-fest-images {
+    position: absolute;
+    right: -38px;
+    top: -44px;
+    z-index: 200;
+    width: 100px !important;
+}

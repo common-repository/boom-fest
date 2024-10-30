@@ -1,0 +1,34 @@
+{
+    "landingPage": "/wp-admin/admin.php?page=boom-fest",
+    "preferredVersions": {
+        "php": "7.4",
+        "wp": "5.9"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org\/plugins",
+                "slug": "boom-fest"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "installTheme",
+            "themeZipFile": {
+                "resource": "wordpress.org\/themes",
+                "slug": "pendant"
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: new-year-3;
+  src: url(happynewyear.ttf);
+}
+
+#boom-fest-font{
+    font-family: new-year-3;
+    font-size:100px;
+}
